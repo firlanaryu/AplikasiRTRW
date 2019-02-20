@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navBeranda"
+        android:icon="@drawable/ic_action_beranda"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/navLayanan"
+        android:icon="@drawable/ic_action_layanan"
+        android:title="Layanan" />
+    <item
+        android:id="@+id/navBerita"
+        android:icon="@drawable/ic_action_berita"
+        android:title="Berita" />
+    <item
+        android:id="@+id/navPatrol"
+        android:icon="@drawable/ic_action_patrol"
+        android:title="Patrol" />
+</menu>
