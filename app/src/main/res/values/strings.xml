@@ -5,4 +5,7 @@
     <string name="loginButton">Login</string>
     <string name="loginLupaPassword">Lupa Password</string>
     <string name="loginDaftarBaru">Daftar Baru</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
