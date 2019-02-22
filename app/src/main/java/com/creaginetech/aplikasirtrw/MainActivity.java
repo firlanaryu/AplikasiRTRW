@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private BerandaFragment berandaFragment;
     private BeritaFragment beritaFragment;
+    private LayananFragment layananFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         berandaFragment = new BerandaFragment();
         beritaFragment = new BeritaFragment();
+        layananFragment = new LayananFragment();
 
         replaceFragment(berandaFragment);
 
@@ -58,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
                 case R.id.navBeranda:
                     fragment = new BerandaFragment();
+                    replaceFragment(fragment);
+                    return true;
+
+                case R.id.navLayanan:
+                    fragment = new LayananFragment();
                     replaceFragment(fragment);
                     return true;
 
